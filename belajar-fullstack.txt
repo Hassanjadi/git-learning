@@ -6,5 +6,5 @@ BELAJAR FULLSTACK
 - Nodejs
 - PostgreSQL
 - RESTFul APIs
-- JWT Auth
+- Redis
 - Linux Basic
