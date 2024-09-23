@@ -4,5 +4,7 @@ BELAJAR FULLSTACK
 - Css
 - Javascript
 - Nodejs
-- PostgreSQ
+- PostgreSQL
 - RESTFul APIs
+- Redis
+- Linux Basic
