@@ -1,0 +1,7 @@
+BELAJAR FULLSTACK
+
+- Html
+- Css
+- Javascript
+- Nodejs
+- PostgreSQL
