@@ -1,0 +1,8 @@
+BELAJAR FULLSTACK
+
+- Html
+- Css
+- Javascript
+- Nodejs
+- PostgreSQ
+- RESTFul APIs
