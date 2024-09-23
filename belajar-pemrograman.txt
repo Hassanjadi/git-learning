@@ -3,3 +3,4 @@ RENCANA BELAJAR PEMROGRAMAN
 - Frontend
 - Backend
 - Fullstack
+- DevOps
