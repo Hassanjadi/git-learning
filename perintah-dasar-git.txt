@@ -1,0 +1,39 @@
+**PERINTAH DASAR GIT**
+
+##3 AREA PADA REPO GIT
+-> Working tree   : folder tempat bekerja
+(.git
+  -> Staging area : tempat file yang sudah diberikan perubahan
+  -> History      : tempat menyimpan history perubahan
+) 
+
+-> git init : membuat repository di file lokal dan berlokasi di folder .git
+-> git status: mengecek status repository local
+-> git add : menambahkan file baru ke repository yang dipilih
+-> git commit : menyimpan perubahan yang cudah dilakukan, namun tidak ada perubahan yang terjadi pada remote repository
+-> git push : mentransfer perubahan file ke repository jarak jauh setelah melakukan perubahan
+-> git merge : menggabungkan branch aktif dengan branch yang dipilih
+-> git clone : membuat salinan repository lokal
+-> git log : melihat commit apa saja yang sudah dilakukan
+-> git log -<jumlah commit> : melihat beberpa commit terakhir
+-> git log -- <nama file> : mencari spesifik commit sebuah file
+-> git checkout <5 digit hash commit> -- <nama file> : mengembalikan commit yang sudah dihapus
+
+##BRANCH
+-> git branch : menampilkan semua branch
+-> git branch <nama branch> : membuat branch baru
+-> git checkout <nama branch> : menukar branch aktif dengan branch yang dipilih
+-> git log --all --decorate --oneline --graph : menampilkan branch dengan visualisasi graph
+-> alias graph="git log --all --decorate --oneline --graph" : membuat alias graph
+
+##MERGE
+-> Fast forward
+   * terjadi ketika branch yang ingin kita gabungkan berada di jalur langsung (direct path)
+-> Three way merge/merge commit
+   * terjadi ketika branch yang digabungkan tidak berada di satu jalur
+
+
+-> git merge <nama branch> : menggabungkan branch 
+-> git branch --merged : melihat branch yang sudah digabungkan
+-> git branch -d <nama branch> : menghapus branch yang sudah tidak digunakan
+-> git branch -D <nama branch> : menghapus branch yang tidak digabungkan/digunakan

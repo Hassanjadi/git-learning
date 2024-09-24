@@ -1,0 +1,11 @@
+-> Version Control Systems (VCS)
+   Version Control Systems (VCS) adalah sebuah sistem yang merekam perubahan-perubahan dari sebuah berkas atau sekumpulan berkas
+   dari waktu ke waktu sehingga kita dapat menilik kembali versi khusus pada suatu saat nanti.
+
+-> Group Inclusive Tour (GIT)
+   Git adalah sebuah version control yang banyak digunakan oleh programer untuk berkolaborasi untuk pembuatan dan pengembangan aplikasi.
+   Git juga dikenal dengan istilah Distributed Revision Control yang artinya adalah sebuah penyimpanan database GIT yang tidak hanya pada satu tempat saja.
+   Git adalah sebuah perangkat lunak yang dipakai oleh Linus Torvald untuk proses pembuatan kernel Linux pada tahun 2005.
+
+-> Github
+   Github adalah platform berbasis web yang digunakan untuk menyimpan, mengelola, dan berbagi source code bagi developer diseluruh dunia.
