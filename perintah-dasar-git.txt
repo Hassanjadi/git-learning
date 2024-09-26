@@ -80,3 +80,6 @@
 
 -> Delete branch feature yang tidak bisa digunakan
 -> Jika di graph masih ada lakukan push (git push origin --delete <branch yang ingin dihapus>)
+
+##GIT IGNORE
+-> Web otomatis : gitignore.io
