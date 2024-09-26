@@ -66,3 +66,17 @@
 -> git fetch <nama remote>
 -> git merge <nama remote>/<branch aktif>
 -> git push (jika ingin sinkron semua tidak hanya lokal)
+
+##REMOTE BRANCH
+>>> Ingin menambah/mengusulkan fitur baru ke repo utama yang di fork
+-> Tidak boleh pada master branch kita, sebaiknya membuat branch baru
+   (cara cepat: git checkout -b <nama branch>)
+-> Lakukan penambahakn/perubahan fitur
+-> Commit perubahan
+-> Push ke github kita
+-> Pullrequest menggunakan github
+
+>>> Jika sudah diterima bisa lakukan lagi multiple remote
+
+-> Delete branch feature yang tidak bisa digunakan
+-> Jika di graph masih ada lakukan push (git push origin --delete <branch yang ingin dihapus>)
