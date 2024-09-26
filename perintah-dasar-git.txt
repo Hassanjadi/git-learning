@@ -37,3 +37,8 @@
 -> git branch --merged : melihat branch yang sudah digabungkan
 -> git branch -d <nama branch> : menghapus branch yang sudah tidak digunakan
 -> git branch -D <nama branch> : menghapus branch yang tidak digabungkan/digunakan
+
+##REMOTE
+-> git clone <link repo github> : menduplikat repository yang ada di github ke local komputer
+-> git remote add origin <link repo github> : membuat remote repo dari lokal ke github
+-> git push -u origin master : me-upload repo lokal ke branch master github
