@@ -42,3 +42,16 @@
 -> git clone <link repo github> : menduplikat repository yang ada di github ke local komputer
 -> git remote add origin <link repo github> : membuat remote repo dari lokal ke github
 -> git push -u origin master : me-upload repo lokal ke branch master github
+
+##GITHUB PAGES
+>>> Github
+-> Mempunyai repository yang akan dijadigan github pages
+-> Memberikan nama repository dengan format <username github>.github.io (ex: hassanjadi.github.io)
+-> Setting repository menjadi publik
+-> Buat Repository
+
+>>> Folder Lokal
+-> Folder file jadikan repository
+-> Hubungkan ke github menggunakan git remote
+-> Push ke github
+-> Selesai
