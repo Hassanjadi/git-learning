@@ -83,3 +83,8 @@
 
 ##GIT IGNORE
 -> Web otomatis : gitignore.io
+
+##GIT REBASE
+   Git rebase adalah salah satu cara kita untuk memilih Git Workflow (tidak menggunakan merge)
+   Hampir sama dengan merge hanya penerapannya diganti dengan rebase saja
+-> git rebase <nama branch> : menggabungkan commit antar branch menggunakan fast forward
