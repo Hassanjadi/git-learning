@@ -55,3 +55,14 @@
 -> Hubungkan ke github menggunakan git remote
 -> Push ke github
 -> Selesai
+
+##MULTIPLE REMOTE
+-> Fork dari repo yang ingin dimultiple
+-> Clone hasil fork di repo kita
+-> Clone repository dari repo asli
+-> git fetch <nama remote> : mengetahui perubahan/commit dari file remote utama
+
+>>> Jika ada perubahan pada repo utama dan ingin menyamakan
+-> git fetch <nama remote>
+-> git merge <nama remote>/<branch aktif>
+-> git push (jika ingin sinkron semua tidak hanya lokal)
